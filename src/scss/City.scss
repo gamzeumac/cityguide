@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./Main.scss";
+
+* {
+    background-color: "map-get($mycolor, primary)";
+
+    .images {
+        height: 100%;
+        @include flexcenter;
+        max-width: 650px;
+        clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    }
+
+    .Row1 {
+        height: auto;
+        width: auto;
+
+        @include flexcenter;
+        .city1 {
+            @include citys($image: url(../components/images/p_eiffel.jpg)) {
+            }
+        }
+        .city2 {
+            @include citys($image: url(../components/images/p_arkhitekture.jpg)) {
+            }
+        }
+        .city3 {
+            @include citys($image: url(../components/images/paris2.jpg)) {
+            }
+        }
+    }
+    .Row2 {
+        height: auto;
+        width: auto;
+
+        @include flexcenter;
+        .city4 {
+            @include citys($image: url(../components/images/venedig1.jpg)) {
+            }
+        }
+        .city5 {
+            @include citys($image: url(../components/images/v_kanal.jpg)) {
+            }
+        }
+        .city6 {
+            @include citys($image: url(../components/images/v_mask.jpg)) {
+            }
+        }
+    }
+}
