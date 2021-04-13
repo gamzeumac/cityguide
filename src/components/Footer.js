@@ -9,27 +9,32 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
-          </MDBCol>
-          <MDBCol md="6">
-            <h5 className="title">Links</h5>
+            <h5 className="title"> About Me </h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="#!"> Contact Me</a>
+              </li>
+              <li>
+                <a href="#!">Sign-up</a>
+              </li>
+
+            </ul>
+            
+
+          </MDBCol>
+          <MDBCol md="6">
+            <h5 className="title">Home</h5>
+            <ul>
+              <li className="list-unstyled">
+                <a href="#!">Paris</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <a href="#!"> Venedig</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+                <a href="#!">Forum</a>
               </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
+
             </ul>
           </MDBCol>
         </MDBRow>
