@@ -36,5 +36,11 @@ $mycolor: (
     margin: 5px;
     background-size: cover;
     @content;
-
+}
+@mixin Footer{
+    font-family: sans-serif;
+    text-align: center;  
+    position: fixed;
+    background-color: rgb(80, 69, 69);
+    @content
 }

@@ -1,8 +1,11 @@
-@import "~bootstrap/scss/bootstrap";
+
 @import "./Main.scss";
 
 * {
-    background-color: "map-get($mycolor, primary)";
+    body{
+      background-color: "map-get($mycolor, primary)";  
+    }
+    
 
     .images {
         height: 100%;
